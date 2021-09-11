@@ -4,7 +4,8 @@ export default class Player {
 
     }
 
-    move(x){
+    _move(x){
+        console.log(this._position)
         this._position += x;
     }
 }
