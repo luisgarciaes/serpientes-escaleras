@@ -1,7 +1,10 @@
 export default class Board {
     constructor(){
         let _casillas = new Array(100)
-        let _serpientes = [[98,78],[95,75],[93,73],[87,24],[64,60],[62,19],[56,53],[49,11],[48,26],[16,6]]
-        let _escaleras = [[1,38],[4,14],[9,31],[21,42],[28,84],[36,44],[51,67],[71,91],[80,100]]
+        let _startSnakes = [98,95,93,87,64,62,56,49,48,16]
+        let _endSnakes = [78,75,73,24,60,19,53,11,26,6]
+        let _startLadders = [1,4,9,21,28,36,51,71,80]
+        let _endLadders = [38,14,31,42,84,44,67,91,100]
+        console.log(_startLadders.length)
     }
 }
